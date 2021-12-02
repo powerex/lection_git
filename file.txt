@@ -1,7 +1,8 @@
 #include <iostream>
 #include <iomanip>
+#include "config.h"
 
 int main() {
-    std::cout << setw(50) << "Hello World";
+    std::cout << setw(W) << "Hello World";
     return 0;
 }
