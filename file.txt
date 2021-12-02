@@ -1,6 +1,7 @@
 #include <iostream>
+#include <iomanip>
 
 int main() {
-    std::cout << "Hello World";
+    std::cout << setw(50) << "Hello World";
     return 0;
 }
