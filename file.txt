@@ -3,10 +3,12 @@
 #include "config.h"
 
 int main() {
+<<<<<<< HEAD
     std::cout << setw(W) << "Hello World\n";
     int x;
     std::cin >> x;
     std::cout << x + 1 << endl;
     std::cout << x + 2 << endl;
-    return 0;
+    return 10;
+>>>>>>> new
 }
