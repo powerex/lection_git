@@ -1,7 +1,9 @@
 #include <iostream>
+#include <iomanip>
+#include "config.h"
 
 int main() {
-    std::cout << "Hello World\n";
+    std::cout << setw(W) << "Hello World\n";
     int x;
     std::cin >> x;
     std::cout << x + 1 << endl;
