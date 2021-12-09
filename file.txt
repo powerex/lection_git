@@ -9,5 +9,8 @@ int main() {
     std::cout << x + 1 << endl;
     std::cout << x + 2 << endl;
     std::cout << x + 3 << endl;
+    int y;
+    std::cin >> y;
+    int z = y + x;
     return 10;
 }
