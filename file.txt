@@ -12,5 +12,6 @@ int main() {
     int y;
     std::cin >> y;
     int z = y + x;
+    int k = y * x;
     return 10;
 }
