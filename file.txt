@@ -3,7 +3,7 @@
 #include "config.h"
 
 int main() {
-    std::cout << setw(W) << "Hello World\n";
+    std::cout << setw(W) << "Hello World!!!\n";
     int x;
     std::cin >> x;
     std::cout << x + 1 << endl;
